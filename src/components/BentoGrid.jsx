@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Palette, BarChart3, Terminal, Cpu, ArrowUpRight } from 'lucide-react';
 // 确认图片路径正确
-import jimengImage from './assets/jimeng.png'; 
+import jimengImage from '../assets/jimeng.png'; 
 
 const BentoCard = ({ children, className = "", title, subtitle, icon: Icon, borderHoverColor = "hover:border-blue-500/50" }) => (
   <motion.div 
